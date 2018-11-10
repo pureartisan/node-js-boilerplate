@@ -6,6 +6,10 @@ The project comes with the following already configured:
 - Babel
 - Mocha / Chai / Sinon / Sinon-Chai
 
+## React Support
+
+If you want React support, please use the `react` branch.
+
 ## Install
 ```
 npm install
