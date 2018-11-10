@@ -27,7 +27,7 @@
     "@babel/preset-env": "latest",
     "@babel/register": "latest",
     "chai": "latest",
-    "coffeescript": "^2.3.2",
+    "coffeescript": "latest",
     "mocha": "latest",
     "sinon": "latest",
     "sinon-chai": "latest"
