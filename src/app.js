@@ -1,13 +1,25 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class App {
+class App extends React.Component {
 
-    constructor() {
+    static propTypes = {
+      'id': PropTypes.string
+    };
 
-    }
+    static defaultProps = {
+      'id': '1'
+    };
 
     method2spy() {
 
     }
+
+    render() {
+      return (
+          <div>My App</div>
+      )
+    };
 
 }
 

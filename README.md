@@ -4,7 +4,9 @@ Node JS Boilerplate project.
 
 The project comes with the following already configured:
 - Babel
+- Babel - React (preset)
 - Mocha / Chai / Sinon / Sinon-Chai
+- Enzyme
 
 ## React Support
 

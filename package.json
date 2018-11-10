@@ -1,11 +1,12 @@
 {
   "name": "@prageeths/node-js-boilerplate",
-  "version": "0.0.1",
-  "description": "Boilerplate for JS using node",
+  "version": "1.0.0",
+  "description": "Boilerplate for React JS using node",
   "license": "Apache-2.0",
   "keywords": [
     "node",
-    "boilerplate"
+    "boilerplate",
+    "react"
   ],
   "main": "dist/main.js",
   "scripts": {
@@ -17,7 +18,11 @@
     "type": "git",
     "url": "git@github.com:prageeth/node-js-boilerplate.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
   "peerDependencies": {},
   "devDependencies": {
     "@babel/cli": "latest",
@@ -25,9 +30,12 @@
     "@babel/plugin-proposal-class-properties": "latest",
     "@babel/plugin-proposal-object-rest-spread": "latest",
     "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
     "@babel/register": "latest",
     "chai": "latest",
     "coffeescript": "latest",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
     "mocha": "latest",
     "sinon": "latest",
     "sinon-chai": "latest"
