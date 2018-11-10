@@ -4,7 +4,7 @@
   "description": "Boilerplate for JS using node",
   "main": "dist/main.js",
   "scripts": {
-    "build": "rm -rf dist && babel src --out-dir ./dist --source-maps --ignore ./test",
+    "build": "babel src --out-dir ./dist --source-maps --ignore ./test",
     "test": "./node_modules/.bin/mocha --compilers js:@babel/register test/**/*test.js",
     "prepare": "npm run-script build"
   },
@@ -12,18 +12,15 @@
     "type": "git",
     "url": "git@github.com:prageeth/node-js-boilerplate.git"
   },
-  "dependencies": {
-
-  },
-  "peerDependencies": {
-
-  },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
     "@babel/cli": "latest",
     "@babel/core": "latest",
     "@babel/plugin-proposal-class-properties": "latest",
     "@babel/plugin-proposal-object-rest-spread": "latest",
     "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
     "@babel/register": "latest",
     "chai": "latest",
     "mocha": "latest",
