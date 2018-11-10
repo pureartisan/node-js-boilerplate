@@ -2,6 +2,11 @@
   "name": "@prageeths/node-js-boilerplate",
   "version": "0.0.1",
   "description": "Boilerplate for JS using node",
+  "license": "Apache-2.0",
+  "keywords": [
+    "node",
+    "boilerplate"
+  ],
   "main": "dist/main.js",
   "scripts": {
     "build": "babel src --out-dir ./dist --source-maps --ignore ./test",
@@ -20,7 +25,6 @@
     "@babel/plugin-proposal-class-properties": "latest",
     "@babel/plugin-proposal-object-rest-spread": "latest",
     "@babel/preset-env": "latest",
-    "@babel/preset-react": "latest",
     "@babel/register": "latest",
     "chai": "latest",
     "mocha": "latest",
